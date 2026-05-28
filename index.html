@@ -1,0 +1,53 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drawing App</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+<div class="toolbar">
+
+  <button id="brush">
+    <i class="fas fa-paint-brush"></i>
+  </button>
+
+  <button id="rectangle">
+    <i class="fas fa-square"></i>
+  </button>
+
+  <button id="circle">
+    <i class="fas fa-circle"></i>
+  </button>
+
+  <button id="eraser">
+    <i class="fas fa-eraser"></i>
+  </button>
+
+  <input type="color" id="colorPicker">
+
+  <input type="range" id="sizeSlider" min="1" max="50" value="5">
+
+  <button id="clearCanvas">
+    <i class="fas fa-trash"></i>
+  </button>
+
+  <button id="saveCanvas">
+    <i class="fas fa-download"></i>
+  </button>
+
+</div>
+
+<canvas id="canvas"></canvas>
+
+<script src="script.js"></script>
+</body>
+</html>
